@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+       <div class="header">
+           <h1>Job Details</h1>
+       </div>
+
+       <div class="main">
+          <form action="">
+            <table >
+              <tr>
+                <td align="right"><p>Job Title:</p></td>
+                <td><input type="text" name="title" class="editInput"></td>
+              </tr>
+               <tr>
+                <td align="right"><p>Description:</p></td>
+                <td><textarea name="desc"  cols="30" rows="10" ></textarea>
+                    <br><mark id="descId">Brief Description should have almost 500 characters</mark></td>
+               </tr>
+               <tr>
+                <td align="right"><p>Company Name:</p></td>
+                <td><input type="text" name="cName" class="editInput"></td>
+               </tr>
+               <tr>
+               <td align="right"><p>Contact Number:</p></td>
+               <td><input type="text" name="contactNumber" class="editInput"></td>
+              </tr>
+               <tr>
+                <td align="right"><p>Contact Person:</p></td>
+                <td><input type="text" name="contactPerson" class="editInput"></td>
+               </tr>
+               <tr>
+               <td align="right"><p>Email:</p></td>
+               <td><input type="email" name="email" class="editInput"></td>
+              </tr>
+               <tr>
+                <td align="right"><p>Work Status:</p></td>
+                <td><input type="checkbox" name="workStatus" value="Full Time"> Full Time
+                  <input type="checkbox" name="workStatus" value="Part Time"> Part Time
+                  <input type="checkbox" name="workStatus" value="Per Dim"> Per Dim
+                  <input type="checkbox" name="workStatus" value="Others"> Others</td>
+               </tr>
+               <tr>
+                <td align="right"><p>Salary:</p></td>
+                <td><input type="number" name="salary" class="editInput">
+                 <select name="Currency" >
+                   <option value="US Dollar">US Dollar</option>
+                   <option value="Pakistani Rupee">Pakistani Rupee</option>
+                   <option value="Baharani Dinar">Baharani Dinar</option>
+                 </select>
+                 <select name="incomeType" >
+                  <option value="Yearly">Yearly</option>
+                  <option value="Monthly">Monthly</option>
+                  <option value="Weekly">Weekly</option>
+                </select>
+                </td>
+               </tr>
+               <tr>
+                <td align="right"><p>Experience(Years):</p></td>
+                <td><input type="number" name="experience" class="editInput"></td>
+               </tr>
+               <tr> 
+                <td align="right"><p>Location:</p></td>
+                <td><input type="text" name="location" class="editInput"></td>
+               </tr>
+               <tr>
+                <td align="right"><p>Qualification:</p></td>
+                <td> <select name="qualification" >
+                  <option value="Any">Any</option>
+                  <option value="High School">High School</option>
+                  <option value="Associate">Associate</option>
+                  <option value="Associate">Associate</option>
+                  <option value="Pre Bachelors">Pre Bachelors</option>
+                </select></td>
+               </tr>
+               <tr>
+                <td align="right"><input type="submit" value="Submit" class="button"></td>
+                <td><input type="reset" value="Reset" class="button"></td>
+               </tr>
+            
+            </table>
+          </form>
+       </div>
+
+
+       <div class="footer">
+          <p>Created By: Abdul Rehman</p>
+       </div>
+
+
+
+
+
+
+    </div>
+
+
+</body>
+</html>

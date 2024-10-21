@@ -1,0 +1,84 @@
+.header{
+    background-color: aqua;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    border: 2px solid black;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+
+table{
+    border-collapse: collapse;
+    background-color: pink;
+    border-radius: 12px;
+    box-shadow: 12px;
+    box-sizing: border-box;
+   
+
+}
+    
+
+
+td{
+    border: 0px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    font-size: x-large;
+    background-color: grey;
+    text-align: center;
+}
+
+.button{
+    width: 140px;
+    height: 35px;
+    border-radius: 12px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    background-color: lightseagreen;
+    font-size: larger;
+    font-weight: bold;
+
+}
+
+.button:hover{
+    background-color: aquamarine;
+}
+
+#descId{
+   
+    background-color:yellow;
+}
+
+.editInput{
+    border: 2px solid gray;
+    border-radius: 12px;
+    width: 250px;
+    height: 35px;
+
+}
+
+select{
+    border: 2px solid gray;
+    border-radius: 12px;
+    height: 35px;
+    margin-top: 5px;
+
+}
+
+p{
+    font-size: larger;
+}
+
+
+
+
+
+
+
