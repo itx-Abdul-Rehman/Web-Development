@@ -1,0 +1,130 @@
+    .container{
+        height: 100vh;
+        
+    }
+
+    .header{
+        display: flex;
+        justify-content: flex-end;
+        gap: 20px;
+        background-attachment: fixed;
+    }
+
+    .list{
+        margin-right: auto;
+       
+    }
+
+    li{
+        list-style: none;
+        font-size: xx-large;
+    }
+
+    .logo{
+        width: 150px;
+        height: 100px;
+        border: 1pxx solid black;
+        background-color: blue;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+    }
+
+    .main{
+        display: flex;
+        justify-content: flex-start;
+        margin: 10px;
+        gap: 5px;
+    }
+
+    .right{
+        width: 70%;
+        height: 450px;
+    
+    }
+    
+    .left{
+        width: 30%;
+        height: 445px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border: 2px solid black;
+    }
+
+   .upper{
+    border: 2px solid black;
+    height: 270px;
+    background-color: yellow;
+   }
+
+    #upperHeading{
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+
+    .upper_down{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .lower{
+        display: flex;
+        justify-content: flex-start;
+        height: 170px;
+        margin-top: 5px;
+        gap: 5px;
+    }
+
+    .lower-one{
+        width: 50%;
+       
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: aqua;
+    }
+    
+    .lower-two{
+        width: 50%;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: purple;
+    }
+
+    .sidebar1{
+       background-color: pink;
+       height: 200px;
+       margin: 8px 8px 0px 8px;
+       display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+    }
+    .sidebar2{
+        background-color: grey;
+        height: 100px;
+        margin: 0px 8px 0px 8px;
+        display: flex;
+         justify-content: center;
+         align-items: center;
+         border: 2px solid black;
+     }
+
+    
+   .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background-color: orangered;
+    margin: 10px;
+    height: 130px;
+   }
