@@ -1,0 +1,40 @@
+:root{
+  /* globla variables */
+  --headerColor: rgba(32, 155, 193, 0.575);
+  --mainColor:rgba(32, 139, 193, 0.667);
+  --footerColor:rgba(32, 139, 193, 0.467);;
+  --headerSize:10%;
+  --mainSize:80%;
+  --footerSize:10%;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: var(--headerSize) var(--mainSize) 
+     var(--footerSize);
+}
+
+.header{
+  position: sticky;
+  top: 0px;
+   grid-row: 1/2;
+   grid-column: 1/2;
+   background-color: var(--headerColor);
+   
+}
+
+.main{
+  grid-row: 2/3;
+  grid-column: 1/2;
+  background-color: var(--mainColor);
+ 
+}
+
+.footer{
+  grid-row: 3/4;
+  grid-column: 1/2;
+  background-color: var(--footerColor);
+}
