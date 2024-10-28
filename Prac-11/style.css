@@ -1,0 +1,166 @@
+.container{
+    margin:0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin: 30px auto;
+    height: 100vh;
+}
+
+.box{
+    background-color: aquamarine;
+    width: 20%;
+    height: 50px;
+    border-radius: 18px;
+    margin: 20px 20px;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+
+.button1:hover{
+    background-color: gray;
+    transform: scale(1.5);
+    transition: 0.5s transform ease;
+
+}
+.button2{
+    transition: 0.5s transform ease;
+}
+
+.button2:hover{
+    background-color: gray;
+    transform: scaleX(1.5);
+   
+
+}
+
+.button3:hover{
+    background-color: gray;
+    transform: scaleY(1.5);
+    transition: 0.5s transform ease;
+
+}
+
+.button4{
+    transition:0.5s  ease ;
+    transition-property: transfrom background-color;
+}
+
+.button4:hover{
+   transform: translate(20px,30px);
+   background-color: gray;
+}
+
+.button5{
+    transition:0.5s  ease ;
+    transition-property: transfrom background-color;
+}
+
+.button5:hover{
+   transform: translateX(30px);
+   background-color: gray;
+}
+
+.button6{
+    transition:0.5s  ease ;
+    transition-property: transfrom background-color;
+}
+
+.button6:hover{
+   transform: translateY(-30px);
+   background-color: gray;
+}
+
+.button6{
+    transition:0.5s  ease ;
+    transition-property: transfrom background-color;
+}
+
+.button6:hover{
+   transform: translateY(-30px);
+   background-color: gray;
+}
+
+.button7{
+    transition:0.5s  ease ;
+    transition-property: transfrom background-color;
+}
+
+.button7:hover{
+   transform:   rotate3d(2,1,1,45deg) translateZ(20px);
+   background-color: gray;
+}
+
+.button8{
+    transition:0.5s  ease ;
+    transition-property: transfrom background-color;
+}
+
+.button8:hover{
+   transform:   rotate(180deg);
+   background-color: gray;
+}
+
+.button9{
+    transition:0.5s  ease ;
+    transition-property: transfrom background-color;
+}
+
+.button9:hover{
+   transform: perspective(500px) scaleZ(2)  rotateX(45deg);
+   background-color: gray;
+}
+
+.button10{
+    transition:0.5s  ease ;
+    transition-property: transfrom background-color;
+}
+
+.button10:hover{
+   transform: perspective(500px) scaleZ(2)  rotateY(45deg);
+   background-color: gray;
+}
+
+.button11{
+    transition:0.5s  ease ;
+    transition-property: transfrom background-color;
+}
+
+.button11:hover{
+   transform: rotate3d(3,2,4,45deg) scaleX(1.4);
+   background-color: gray;
+}
+
+.button12{
+    transition:0.5s  ease ;
+    transition-property: transfrom background-color;
+}
+
+.button12:hover{
+   transform: skewX(30deg);
+   background-color: gray;
+}
+.button13{
+    transition:0.5s  ease ;
+    transition-property: transfrom background-color;
+}
+
+.button13:hover{
+   transform: skewY(30deg);
+   background-color: gray;
+}
+
+.button14{
+    transition:0.5s  ease ;
+    transition-property: transfrom background-color;
+}
+
+.button14:hover{
+   transform: skew(30deg,15deg);
+   background-color: gray;
+}
+
+
