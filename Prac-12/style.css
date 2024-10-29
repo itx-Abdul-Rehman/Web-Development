@@ -1,0 +1,125 @@
+.container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.nend{
+  position: absolute;
+  top:0;
+}
+h1{
+    font-size: 86px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-shadow: 5px 2px 4px rgb(3, 186, 177);
+}
+body{
+    background-color: rgba(0, 0, 0, 0.819);
+}
+
+.box{
+    background-image: url("gr3.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 70vw;
+    height: 60vh;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px white 2px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    position: relative;
+}
+
+
+.ball1{
+    width: 3%;
+    height: 30px;
+    border-radius: 30px;
+     background-color: transparent;
+    background-image: url("icons8-smiley-face-96.png");
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    animation: myAnim 3s linear 1s infinite, 
+    myAnimY 0.5s ease-out 1s infinite alternate;
+}
+
+.ball2{
+    width: 3%;
+    height: 30px;
+    border-radius: 30px;
+    background-color: transparent;
+    background-image: url("icons8-smiley-face-96\ \(2\).png");
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    animation: myAnim 3s linear 0.5s infinite, myAnimY 0.5s ease-out 0.5s infinite alternate;
+}
+
+.ball3{
+    width: 3%;
+    height: 30px;
+    border-radius: 30px;
+    background-color: transparent;
+    background-image: url("icons8-smiley-face-96\ \(1\).png");
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    animation: myAnim 3s linear 1.5s infinite,
+     myAnimY 0.5s ease-out 1.5s infinite alternate;
+}
+
+.ball4{
+    width: 3%;
+    height: 30px;
+    border-radius: 30px;
+    background-color: transparent;
+    background-image: url("icons8-smiley-face-96\ \(3\).png");
+    background-size: cover;
+    position: absolute;
+    
+    animation: myAnim 3s linear 0.75s infinite, 
+    myAnimY 0.5s ease-out 0.75s infinite alternate;
+}
+
+.ball5{
+    background-image: url("icons8-smiley-face-96\ \(4\).png");
+    background-size: cover;
+    width: 4%;
+    height: 40px;
+    border-radius: 30px;
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    animation: myAnim 3s linear 1.2s infinite, 
+    myAnimY 0.5s ease-out 1.2s infinite alternate;
+}
+
+@keyframes myAnim {
+    from{
+       left: 0;
+    }to{
+       left: 100%;
+    }
+ 
+    
+ } 
+ 
+ @keyframes myAnimY {
+     
+     from{
+        bottom: 0;
+     }to{
+       bottom: 50%;
+     }
+     
+ }
