@@ -1,0 +1,15 @@
+
+.box{
+    width:250px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px black;
+    margin: 4px;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-flow: row;
+}
