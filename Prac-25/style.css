@@ -1,0 +1,21 @@
+.box{
+    width: 70vw;
+    aspect-ratio: 3/1;
+    background-color: rgb(4, 50, 4);
+    padding: 10px 10px;
+}
+
+div{
+    color: white;
+    
+}
+
+.miniBox{
+    display: flex;
+    flex-flow: row;
+}
+
+.dot{
+    visibility: hidden;
+}
+
