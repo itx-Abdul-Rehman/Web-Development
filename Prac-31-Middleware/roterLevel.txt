@@ -1,0 +1,3 @@
+This is router leve middleware and method is GETThis is router leve middleware and method is GETThis is router leve middleware and method is GETThis is router leve middleware and method is GETThis is router leve middleware and method is GETThis is router leve middleware and method is GET
+This is router leve middleware and method is GET
+This is router leve middleware and method is GET

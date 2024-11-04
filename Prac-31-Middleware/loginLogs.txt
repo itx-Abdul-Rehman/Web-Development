@@ -1,0 +1,14 @@
+ user is GET
+ user is GET
+ user is GET
+ user login is GET
+ user signup is POST
+ user login is GET
+ user login is GET
+ user login is GET
+ user login is GET
+ user login is GET
+ user signup is POST
+ user login is GET
+ user login is GET
+ user login is GET
