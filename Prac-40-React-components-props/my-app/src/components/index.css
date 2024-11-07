@@ -1,0 +1,52 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+    margin-top: 15px;
+}
+
+.lists{
+    display: flex;
+    gap:40px;
+}
+
+ul li{
+    list-style: none;
+    font-size: 22px;
+}
+
+.logo{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h1{
+    font-size: 44px;
+}
+.button{
+    position: relative;
+    top: 0;
+    width: 134px;
+    height: 62px;
+    background-color: black;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 24px;
+}

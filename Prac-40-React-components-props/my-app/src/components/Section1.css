@@ -1,0 +1,81 @@
+.section1{
+    width: 85vw;
+    height: 95vh;
+    background-color: #F4F6F5;
+    margin-left: 20px;
+    margin-top: 40px;
+    border-radius: 59px;
+    display: flex;
+    position: relative;
+}
+
+.left div{
+    font-size: 96px;
+    font-weight: bold;
+}
+.left :nth-child(5){
+    font-size: 32px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+.left{
+    padding-left: 5%;
+    padding-top: 5%;
+    width: 50%;
+}
+
+.button2{
+    width: 221px;
+    height: 82px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.button2 button{
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    background: transparent;
+    border: none;
+}
+
+.right{
+    width: 50%;
+    height: 100%;
+}
+
+.pic{
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+}
+
+.pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.star1{
+    position: absolute;
+    top: 20px;
+}
+
+.star2{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+.star3{
+    position: absolute;
+    bottom: 20px;
+}
+
+.star4{
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}

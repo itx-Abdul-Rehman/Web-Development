@@ -1,0 +1,14 @@
+.section2 {
+    width: 100vw;
+    height: 20vh;
+    /* background-color: #EBD96B; margin-top: 40px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.section2 div img {
+    width: 100%; 
+    height: auto; 
+}
+
