@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+body{
+    background-color: #F7F7F7;
+}
+
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("images/roombg.png");
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    z-index: 1;
+    width: 80vw;
+    height: 149px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlist{
+    padding-right: 50px;
+}
+.navlist ol{
+    display: flex;
+    gap: 50px;
+}
+
+.navlist li a{
+    font-size: 25px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.navlist li{
+    list-style: none;
+}
+
+
+.navlist li a:hover{
+    transition: .3s;
+    color: #E0B973;
+}
+
+
+.headings{
+    color:#FFFFFF;
+    position:absolute;
+    top: 35%;
+    left: 10%;
+    
+}
+
+.heading1{
+   font-size: 50px;
+   line-height: 0;
+}
+.heading2{
+    font-size: 154px;
+    font-weight: bold;
+    position: relative;
+}
+.heading3{
+    position:absolute;
+    top: 60%;
+    font-size: 60px;
+    font-weight: bold;
+}
+.heading4{
+    position: relative;
+    top: 30px;
+    font-size: 25px;
+}
+
+.button{
+    position: absolute;
+    bottom: 10%;
+    left: 40%;
+}
+
+.button button{
+    background-color: #E0B973;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 268px;
+    height: 78px;
+    gap: 10px;
+    border: none;
+    border-radius: 8px;
+    
+}
+.button button p{
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFFFFF;
+   
+}
+
+.scroll h1{
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.scroll div {
+    padding-top: 10px;
+}
+.scroll{
+    position: absolute;
+    bottom: 0;
+    right: 1%;
+    text-align: center;
+    
+}
+
+.scroll1{
+    display: none;
+}
+
+.scroll2{
+    display: none;
+}
+
+.section1{
+    width: 100vw;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 div{
+    text-align: center;
+    padding: 0px 30px;
+}
+.section1 div h1{
+    font-size: 60px;
+    color: #14274A;
+    margin-bottom: 20px;
+}
+.section1 div p{
+    color: #14274A;
+    font-size: 24px;
+    
+}
+
+.section2{
+    display: flex;
+    justify-content: center; 
+    
+}
+
+.sub{
+    border: 1px solid #14274A;
+    padding-bottom: 40px;
+    border-bottom-left-radius:8px ;
+    border-bottom-right-radius:8px ;
+    margin-bottom: 10%;
+}
+.subsection{
+    width: 80vw;
+    height: 100vh;  
+    position: relative;
+    margin-bottom: 10%;
+}
+.imageSection div{
+   position: absolute;
+   bottom: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.imageSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imageSection img{
+    width: 80vw;
+    height: 100vh; 
+    object-fit: cover;
+}
+.nam{
+    width: 100%;
+    height: 75px;
+    background-color:#14274A;
+    color: #FFFFFF ;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+.subBottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+.plus{
+    display: flex;
+    gap: 20px;
+}
+
+.plus button{
+    width: 51px;
+    height: 51px;
+    font-size: 31px;
+    font-weight: bold;
+    background-color: #E0B973;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+.plus h1{
+    color: #14274A;
+    margin-top: 12px;
+
+}
+.price button{
+    width: 288px;
+    height: 78px;
+    border: none;
+    border-radius: 8px;
+    background-color: #E0B973;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.section3{
+    width: 100vw;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.section3 h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: #14274A;
+}
+.section3 :nth-child(2){
+    font-size: 30px;
+    color: #14274A;
+}
+.section3 :nth-child(3){
+    font-size: 25px;
+    color: #14274A;
+}
+
+.section3btn{
+    width: 50px;
+    height: 50px;
+    background-color: #E0B973;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: auto;
+}
+
+
+.footer{
+    width: 100vw;
+    height: 40vh;
+    margin-top: 50px;
+    background-image: url("images/footer.png");
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8%;
+    color: #FFFFFF;
+    padding-top: 50px;
+}
+
+
+.footerFirst p{
+    font-size: 14px;
+    text-align: start;
+}
+
+.hotelName{
+    width: 50%;
+}
+.hotelName h6{
+    text-align: center;
+}
+
+#address{
+    margin-top: 30px;
+}
+
+.footerSecond{
+    display: flex;
+    flex-flow: column;
+    gap: 25px;
+}
+
+.footerSecond a{
+    color: #F7F7F7;
+    font-size: 16px;
+}
+.footerSecond a:hover{
+    transition: .3s;
+    color: #E0B973;
+}
+
+.footerThird{
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+}
+.footerThird div{
+    display: flex;
+    flex-flow: row;
+    gap: 10px;
+}
+.footerThird div:nth-child(1){
+    display: flex;
+    flex-flow: row;
+    gap: 18px;
+}
+.footerThird a{
+    color: #FFFFFF;
+}
+.footerThird a:hover{
+    transition: .3s;
+    color: #E0B973;
+}
+.footerFourth{
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+}
+.footerFourth input{
+   width: 280px;
+   height: 52px;
+   border: 1px solid #E0B973;
+   background-color: transparent;
+   padding: 10px;
+   border-radius: 4px;
+   color: #FFFFFF;
+}
+
+.footerFourth input::placeholder{
+    color: #FFFFFF
+ }
+
+ .footerFourth div{
+    display: flex;
+    flex-flow: row;
+    gap: 0;
+ }
+ .footerFourth button{
+    width: 80px;
+    height: 52px;
+    background-color: #E0B973;
+    color: #14274A;
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    right: 4px;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+ }

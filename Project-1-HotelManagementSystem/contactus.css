@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+body{
+    background-color: #F7F7F7;
+}
+
+header{
+    width: 100vw;
+    height: 50vh;
+    background-color: #14274A;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    z-index: 1;
+    width: 80vw;
+    height: 149px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlist{
+    padding-right: 50px;
+}
+.navlist ol{
+    display: flex;
+    gap: 50px;
+}
+
+.navlist li a{
+    font-size: 25px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.navlist li{
+    list-style: none;
+}
+
+
+.navlist li a:hover{
+    transition: .3s;
+    color: #E0B973;
+}
+
+.pagename{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.pagename h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.section1{
+    width: 100vw;
+    color: #14274A;
+    padding: 5%;
+    
+}
+.section1 h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.section1 p{
+    font-size: 30px;
+    text-align: start;
+    line-height: 1.2;
+}
+
+.section2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+.contactInfo{
+    width: 50%;
+    color: #14274A;
+    font-size: 40px;
+}
+
+.message{
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+}
+
+.message label{
+    color: #14274A;
+    font-size: 25px;
+    
+}
+
+
+.input{
+  width: 570px;
+  height: 78px;
+  border: 1px solid gray;
+}
+
+.message textarea{
+    width: 570px;
+    height: 352px;
+    border: 1px solid gray;
+}
+
+.button{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-top: 2%;
+}
+
+.button input{
+    background-color: #E0B973;
+    color: #FFFFFF;
+    width: 145px;
+    height: 78px;
+    border: none;
+    border-radius: 8px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.footer{
+    width: 100vw;
+    height: 40vh;
+    margin-top: 50px;
+    background-image: url("images/footer.png");
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8%;
+    color: #FFFFFF;
+    padding-top: 50px;
+}
+
+
+.footerFirst p{
+    font-size: 14px;
+    text-align: start;
+}
+
+.hotelName{
+    width: 50%;
+}
+.hotelName h6{
+    text-align: center;
+}
+
+#address{
+    margin-top: 30px;
+}
+
+.footerSecond{
+    display: flex;
+    flex-flow: column;
+    gap: 25px;
+}
+
+.footerSecond a{
+    color: #F7F7F7;
+    font-size: 16px;
+}
+.footerSecond a:hover{
+    transition: .3s;
+    color: #E0B973;
+}
+
+.footerThird{
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+}
+.footerThird div{
+    display: flex;
+    flex-flow: row;
+    gap: 10px;
+}
+.footerThird div:nth-child(1){
+    display: flex;
+    flex-flow: row;
+    gap: 18px;
+}
+.footerThird a{
+    color: #FFFFFF;
+}
+.footerThird a:hover{
+    transition: .3s;
+    color: #E0B973;
+}
+.footerFourth{
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+}
+.footerFourth input{
+   width: 280px;
+   height: 52px;
+   border: 1px solid #E0B973;
+   background-color: transparent;
+   padding: 10px;
+   border-radius: 4px;
+   color: #FFFFFF;
+}
+
+.footerFourth input::placeholder{
+    color: #FFFFFF
+ }
+
+ .footerFourth div{
+    display: flex;
+    flex-flow: row;
+    gap: 0;
+ }
+ .footerFourth button{
+    width: 80px;
+    height: 52px;
+    background-color: #E0B973;
+    color: #14274A;
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    right: 4px;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+ }
